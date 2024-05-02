@@ -23,5 +23,3 @@ console.log(obj2);
 function funcB(...rest) {
   console.log(rest);
 }
-
-funcB(...arr1);
