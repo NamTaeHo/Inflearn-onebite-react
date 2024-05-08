@@ -16,6 +16,8 @@ async function getData() {
 console.log(getData());
 
 //await
+// async 한수 내부에서만 사용이 가능한 키워드
+// 비동가 함수가 다 처리되지를 기다리는 역할
 
 async function printData() {
   const data = await getData();
